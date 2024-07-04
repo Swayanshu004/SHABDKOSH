@@ -1,8 +1,17 @@
-# React + Vite
+# SHABDKOSH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SHABDKOSH Dictionary Web App! This project is a dictionary application built using React. 
+Using a public API for fetching word definitions.
+Tailwind CSS and Material-UI for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search for Word Definitions:** Enter any word to get its definition, pronunciation, part of speech, and more.
+- **Clean and Modern UI:** Styled using Tailwind CSS and Material-UI for a sleek and user-friendly interface.
+- **Instant Results:** Fetches data from a public API to provide quick and accurate word definitions.
+
+## Technologies Used
+
+- **Frontend:** [React](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) and [Material-UI](https://mui.com/)
+- **API:** [Dictionary API](https://dictionaryapi.dev/)
