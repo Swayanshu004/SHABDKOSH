@@ -3,6 +3,7 @@ import axios from 'axios'
 import './App.css'
 import Header from './Component/Header';
 import Result from './Component/Result';
+import Footer from './Component/Footer';
 
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
     LightTheme={lighttheme}
     meanings={meanings}
     category={currency} />
+    <Footer 
+    LightTheme={lighttheme}/>
     </>
   )
 }

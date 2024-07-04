@@ -25,8 +25,7 @@ function Header({category, meanings, setCategory, word, setWord, setTheme, Theme
     <div className='p-6 flex flex-col items-center justify-center gap-10 bg-[#6c584c]'>
       <div className='w-full flex justify-between'>
         <h1 
-        className="text-7xl font-bold"
-        style={{color: Theme ? "#f0ead2" : "#fff",}}>शब्दकोशः</h1>
+        className="text-7xl font-bold text-[#f0ead2]">शब्दकोशः</h1>
         <div>
           <WbSunnyRoundedIcon color='warning'/>
           <Switch 
